@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bsync": "npx browser-sync start --proxy localhost --serveStatic .\\webapp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
